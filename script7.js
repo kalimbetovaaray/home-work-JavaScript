@@ -13,7 +13,7 @@ if (bool == false){
 }
 else
 	document.write("Я женщина");
-//2 задание
+////2 задание
 var x = 86;
 if (x < 18)
     document.write('У меня юный возраст');
