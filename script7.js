@@ -14,16 +14,17 @@ if (bool == false){
 else
 	document.write("Я женщина");
 //2 задание
-var x = 16;
-if(x < 18)
-	document.write("У меня юный возраст");
-else if (18 <= x <= 30)
-	document.write("Я молодой");
-else if (30 < x <= 50)
-	document.write("Я всрослый");
-else if (50 < x <= 80)
-	document.write("Я зрелый");
-else
-	document.write("Я старый");
+var x = 86;
+if (x < 18)
+    document.write('У меня юный возраст');
+if (x >= 18 && x < 30)
+    document.write('Я молодой');
+if (x >= 31 && x < 50)
+    document.write('Я взрослый');
+if (x >= 51 && x < 80)
+    document.write('Я зрелый');
+if (x > 80)
+    document.write('Я старый');
+
 
 	
