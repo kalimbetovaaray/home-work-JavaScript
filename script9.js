@@ -1,14 +1,8 @@
-var a = prompt("Введите число больше нули");
-if(a<=0){
- 		while(a<=0){
-			alert("Введите число больше нули");
- 			a = prompt("Введите число больше нули");
- 		}
- 	}
- var i = 1;
- summa = 0;
- while(i<=a){
- 	summa += i;
- 	i++;
- }
- alert("Сумма чисел от 1 до " + a + " = " + summa);
+var x = Number(prompt("Введите целое число больше 0."));  
+   do {
+    alert("Вы ввели неверное число."); 
+    var x = Number(prompt("Введите целое число больше 0."));
+   } while (x <= 0);   
+  
+   var summa = (x*(x+1))/2;
+   document.write(summa);  
